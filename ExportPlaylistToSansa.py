@@ -6,18 +6,6 @@ import eyed3
 import unicodedata
 from xml.sax.saxutils import unescape
 
-########################################################################
-# License:                                                             #
-# ========                                                             #
-# This program was written for personal use, and than got extended for #
-# anyone that might benefit from using it for it's own needs.          #
-# Any changes\publications of this software are on the responsibility  #
-# of the user\distributer himself.                                     #
-#                                                                      #
-# Hope the software will be helpful,                                   #
-# Eyal Itkin.                                                          #
-########################################################################
-
 ####################################################################################################
 # README:                                                                                          #
 # =======                                                                                          #
