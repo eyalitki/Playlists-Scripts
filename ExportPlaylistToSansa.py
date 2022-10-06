@@ -10,13 +10,13 @@ from xml.sax.saxutils import unescape
 # README:                                                                                          #
 # =======                                                                                          #
 # This scripts was written for home use by any sansa clip user                                     #
-# that aims to sync his windows media player playlists to the                                      #
-# player he owns.                                                                                  #
+# that aims to sync their windows media player playlists to the                                    #
+# player they own.                                                                                 #
 #                                                                                                  #
 # The scripts will do the following:                                                               #
 # 1) Find and Copy the playlists songs to the player                                               #
 # 2) Configure a .m3u playlist on the sansa player (supported by the player)                       #
-# 3) Supports .mp3 songs that includes Unicode paths (not originally supported by the .m3u format) #
+# 3) Supports .mp3 songs that include Unicode paths (not originally supported by the .m3u format)  #
 #                                                                                                  #
 # Playlist notes:                                                                                  #
 # .m3u playlists are partially supported by the sansa player, and the songs are                    #
@@ -53,7 +53,7 @@ my_playlists 		= map(lambda x : playlist_base_path + x, playlist_names)
 
 #####################################################################################
 # NOTE: additional absolute paths can be added manually to the "my_playlists" list. #
-# This lisw will be used by the rest of the script.                                 #
+# This list will be used by the rest of the script.                                 #
 #####################################################################################
 
 # unicode configurations
